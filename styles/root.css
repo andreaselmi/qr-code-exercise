@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  /* COLORS */
+  --slate-900: #1F314F;
+  --slate-500: #68778D;
+  --slate-300: #D5E1EF;
+  --white: #FFFFFF;
+
+  /* TOKENS */
+  --color-primary: var(--slate-900);
+  --color-secondary: var(--slate-500);
+  --color-tertiary: var(--slate-300);
+  --color-background: var(--white);
+
+  /* TYPOGRAPHY */
+  --font-family-bold: 'Outfit', sans-serif;
+  --font-family-regular: 'Outfit', sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+
+  /* PRESET 1 */
+  --typography-preset-1-font-size: 1.375rem;
+  --typography-preset-1-line-height: 120%;
+  --typography-preset-1-letter-spacing: 0rem;
+ 
+  /* PRESET 2 */
+  --typography-preset-2-font-size: 0.938rem;
+  --typography-preset-2-line-height: 140%;
+  --typography-preset-2-letter-spacing: 0.013rem;
+
+  /* END TYPOGRAPHY */
+  
+  /* SPACING */
+  --spacing-500: 2.5rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+}
+
+.typography-1 {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--typography-preset-1-font-size);
+  line-height: var(--typography-preset-1-line-height);
+  letter-spacing: var(--typography-preset-1-letter-spacing);
+}
+
+.typography-2 {
+  font-family: var(--font-family-regular);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--typography-preset-2-font-size);
+  line-height: var(--typography-preset-2-line-height);
+  letter-spacing: var(--typography-preset-2-letter-spacing);
+}
